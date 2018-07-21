@@ -1,0 +1,74 @@
+body {
+    font-family: Arial;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 80px;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 28pt;
+    font-weight: normal;
+}
+.header-rigth {
+    padding-bottom: 8px;
+}
+.btn {
+    display: inline-block;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+}
+.hidden {
+    visibility: hidden;
+}
+.card-collection form {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+    grid-column-gap: 80px;
+    grid-row-gap: 30px;
+}
+.card {
+    border: 1px solid black;
+}
+.card ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 35px;
+}
+.card li {
+    margin: 5px 0;
+}
+.form-for-adding label {
+    display: inline-block;
+    width: 70px;
+    margin-bottom: 20px;
+}
+.form-for-adding select {
+    margin-bottom: 50px;
+    width: 100px;
+    margin-left: 10px;
+}
+.special-attribute-form {
+    border: 1px solid black;
+    width: 300px;
+    padding: 40px;
+}
+.special-attribute-form:empty {
+   display: none;
+}
+.special-attribute-form p {
+    margin: 0;
+}
+
+
+

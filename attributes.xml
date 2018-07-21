@@ -1,0 +1,19 @@
+<list>
+    <form>
+        <product>DVD disc</product>
+        <attribute>Size</attribute>
+        <info>Provide size in MB.</info>
+    </form>
+    <form>
+        <product>Book</product>
+        <attribute>Weigth</attribute>
+        <info>Provide weigth in KG.</info>
+    </form>
+    <form>
+        <product>Furniture</product>
+        <attribute>Heigth</attribute>
+        <attribute>Width</attribute>
+        <attribute>Length</attribute>
+        <info>Provide dimensions in HxWxL format.</info>
+    </form>
+</list>
